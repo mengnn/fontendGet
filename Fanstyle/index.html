@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Fanstyle</title>
+    <!-- 设置 viewport -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+   <!--
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" /> -->
+    <!-- IE -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- 兼容国产浏览器的高速模式 -->
+    <meta name="renderer" content="webkit">
+    <meta name="Author" content="fans_m@163.com" />
+    <meta name="Keywords" content="" />
+    <meta name="Description" content="" />
+    <link rel="stylesheet" type="text/css" href="css/Fanstyle.css">
+    <style type="text/css">
+      li{
+        list-style: none;
+      }
+    </style>
+
+</head>
+<body class="f-srcollThree">
+  <div style="height: 2000px;" class="top">
+    <div>123</div>
+    <div class="f-btn">123</div>
+    <div class="f-btnAct">123</div>
+    <div class="f-btnHover">123</div>
+    <input type="text" name="" class="f-input">
+    <div class="f-inputBox">
+      <label>1234</label>
+      <input type="text" name="" class="f-input" disabled>
+    </div>
+    <div class="f-inputBox">
+      <label>1234</label>
+      <input type="text" name="" class="f-input" >
+    </div>
+    <abbr>123</abbr> <br>
+    <span>123</span>
+    <div class="f-colorSuccess">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="f-colorInfo">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="f-colorWarning">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+    <div class="f-colorDanger">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+    proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
+
+    <!-- alert弹窗 -->
+    <button onclick="viewTask('light1')">点击</button>
+    <button onclick="alertBox('12345aadfafdafdfaffa6789',1500)">alert</button>
+    <button onclick="alertBox('asdfasfafdafdfaffa6789',1100,'alertTheme2')">alert2</button>
+    <button onclick="alertBox('asdfasfafdafdfaffa6789',1100,'alertTheme3')">alert3</button>
+    <button onclick="alertBox('asdfasfafdafdfaffa6789',1100,'alertTheme4')">alert4</button>
+
+    <!-- 开关按钮1 -->
+    <div class="f-switchOne">
+        激活&nbsp;&nbsp;关闭
+        <span></span>
+    </div>
+    <!-- 开关按钮2 -->
+    <!-- 开关2 -->
+    <ul>
+      <li>
+        <div class="f-switchTwo" onclick="projectSwitch(this,'1')">
+          <i class="on_left on_style"></i>&nbsp;&nbsp;&nbsp;&nbsp;<i class="off_right"></i>
+          <span class="dot"></span>
+        </div>
+      </li>
+    </ul>
+
+    <div class="xuan">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <style type="text/css">
+      .xuan{
+        width: 300px;
+        height: 300px;
+        border:1px solid #ccc;
+        transition: All 2s ease-in-out;
+        -webkit-transition: All 2s ease-in-out;
+        -moz-transition: All 2s ease-in-out;
+        -o-transition: All 2s ease-in-out;
+      }
+      .xuanhover{
+        transform: rotateY(360deg);
+        -webkit-transform: rotateY(360deg);
+        -moz-transform: rotateY(360deg);
+        -o-transform: rotateY(360deg);
+        -ms-transform: rotateY(360deg);
+      }
+    </style>
+
+    <ul class="scrul">
+      <li></li>
+    </ul>
+    <style type="text/css">
+      .scrul{
+        width:100%;
+      }
+      .scrul li{
+        border: 1px solid #EDEDED;
+        padding-left: 40px;
+        margin-left: 10px;
+        padding-right: 20px;
+        margin-right: 10px;
+        display: block;
+        line-height: 40px;
+        -webkit-transition: all 0.6s ease-in;
+        -moz-transition: all 0.6s ease-in;
+        -ms-transition: all 0.6s ease-in;
+        -o-transition: all 0.6s ease-in;
+        transition: all 0.6s ease-in;
+        width:150px;
+        height: 40px;
+      }
+       .scrul li:hover {
+          color: #1769ff;
+          border:1px solid #4078cb;
+          text-decoration: none;
+      }
+    </style>
+
+
+
+  </div>
+
+<!-- 模态框 -->
+  <div id="f-fade"></div>
+  <div id="light1" class="white-contentAll" style="width: 500px;overflow:hidden;">
+    <div class="white-header">
+      <span class="white-headerTitle">标题狗</span>
+      <span class="white-delete"></span>
+    </div>
+    <div class="white-body">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    </div>
+    <div class="white-footer">
+      <button class="white-close" onclick="cancel('light1')">取消</button>
+      <button class="white-sure">确定</button>
+    </div>
+  </div>
+
+  <!-- alert -->
+ <!--  <div class="f-alertBox">1234566jglsdfgjlsfg</div> -->
+
+
+
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.4.1.min.js"></script>
+<script type="text/javascript" src="js/Fanstyle.js"></script>
+<!-- <script type="text/javascript">
+  var t = $(".top").scrollTop();
+  var h = $(".top").height();
+  var winH=$(window).height();
+  var endH=h-winH;
+  console.log(t+"---"+h+"---"+winH+"--"+endH);
+  setInterval(function(){
+     t=t+100;
+      console.log(t)
+     if(t>endH){
+      $('body,html').animate({'scrollTop':0},500);
+      t=0
+     }else{
+      $('body,html').animate({'scrollTop':t},200);
+     }
+  },5000)
+</script> -->
+<script type="text/javascript">
+  setInterval(function(){
+    $(".xuan").addClass("xuanhover");
+  },2000);
+  setInterval(function(){
+    $(".xuan").removeClass("xuanhover");
+  },4000);
+</script>
+</body>
+</html>
